@@ -35,9 +35,10 @@ export default function Header() {
           className={state.isSticky ? 'is-sticky' : ''}
         >
           <Container sx={styles.container}>
-            <Logo isSticky={state.isSticky}
+            <p>GHALA KUU</p>
+            {/* <Logo isSticky={state.isSticky}
               sx={styles.logo}
-            />
+            /> */}
             <nav as="nav" sx={styles.navbar}>
               {menuItems.map(({ path, label }, i) => (
                 <NavLink
