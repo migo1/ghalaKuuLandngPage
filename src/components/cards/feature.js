@@ -13,11 +13,11 @@ const Feature = ({ data, ...props }) => {
       <Box>
         <Heading as="h4">{data?.title}</Heading>
         <Text as="p">{data?.description}</Text>
-        <Link href={data.moreLink}>
+        {/* <Link href={data.moreLink}>
           <A sx={styles.learnMore}>
             <span>Learn More</span> <Play width={14} height={14} />
           </A>
-        </Link>
+        </Link> */}
       </Box>
     </Box>
   );

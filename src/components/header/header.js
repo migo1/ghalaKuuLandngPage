@@ -6,7 +6,7 @@ import Sticky from 'react-stickynode';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
 import Logo from 'components/logo';
-import { NavLink } from 'components/link';
+import { Link, NavLink } from 'components/link';
 
 import menuItems from './header.data';
 
@@ -32,7 +32,7 @@ export default function Header() {
       >
         <header
           sx={styles.header}
-          className={state.isSticky ? 'is-sticky' : ''}
+          className={state.isSticky ? "is-sticky" : ""}
         >
           <Container sx={styles.container}>
             <p>GHALA KUU</p>
@@ -45,13 +45,15 @@ export default function Header() {
                   key={i}
                   path={path}
                   label={label}
-                  className={state.isSticky ? 'is-sticky' : ''}
+                  className={state.isSticky ? "is-sticky" : ""}
                 />
               ))}
             </nav>
-            <Button variant="primary" sx={styles.button}>
-              Purchase Now
-            </Button>
+            <a href="http://app.ghalatechsolutions.com/login">
+              <Button variant="primary" sx={styles.button}>
+                Login
+              </Button>
+            </a>
             <NavbarDrawer isSticky={state.isSticky} />
           </Container>
         </header>

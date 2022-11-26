@@ -5,8 +5,8 @@ import Slider from 'react-slick';
 import Testimonial from 'components/cards/testimonial';
 import author1 from 'assets/images/clients/author1.png';
 import author2 from 'assets/images/clients/author2.png';
-import logo1 from 'assets/images/clients/logo1.png';
-import logo2 from 'assets/images/clients/logo2.png';
+import logo1 from 'assets/images/clients/kacha.png';
+import logo2 from 'assets/images/clients/kacha.png';
 import { rgba } from 'polished';
 
 const data = [
@@ -15,33 +15,33 @@ const data = [
     author: author1,
     logo: logo1,
     text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
-    authorName: 'Karolin Astaize',
-    designation: 'Vice President - Talent & Acquisition',
+    authorName: "Charles",
+    designation: " President ",
   },
   {
     id: 2,
     author: author2,
     logo: logo2,
     text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
-    authorName: 'Karolin Astaize',
-    designation: 'Vice President - Talent & Acquisition',
+    authorName: "Charles",
+    designation: " President ",
   },
-  {
-    id: 3,
-    author: author1,
-    logo: logo1,
-    text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
-    authorName: 'Karolin Astaize',
-    designation: 'Vice President - Talent & Acquisition',
-  },
-  {
-    id: 4,
-    author: author2,
-    logo: logo2,
-    text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
-    authorName: 'Karolin Astaize',
-    designation: 'Vice President - Talent & Acquisition',
-  },
+  // {
+  //   id: 3,
+  //   author: author1,
+  //   logo: logo1,
+  //   text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
+  //   authorName: "Karolin Astaize",
+  //   designation: "Vice President - Talent & Acquisition",
+  // },
+  // {
+  //   id: 4,
+  //   author: author2,
+  //   logo: logo2,
+  //   text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
+  //   authorName: "Karolin Astaize",
+  //   designation: "Vice President - Talent & Acquisition",
+  // },
 ];
 
 const settings = {

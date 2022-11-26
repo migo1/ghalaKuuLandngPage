@@ -19,7 +19,7 @@ const MobileApp = () => {
             <SectionHeading
               sx={styles.heading}
               title="Beyond on limitation with our android and iOS mobile application"
-              description="Manage your business communications even when you're away from your desk. Native mobile apps for Mail, Mail Admin, and Streams make staying in touch on the go easier and effortless. e-Discovery helps discover such retained emails quickly."
+              description="Ease Management your business communications for the sales and logistics team. Native mobile apps for Orders, Stores Management, and Distributions of goods and service which makes staying in touch on the go easier and effortless."
             />
             <Flex sx={styles.buttonGroup}>
               <Img src={appStore} alt="appStore" />

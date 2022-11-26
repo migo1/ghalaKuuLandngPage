@@ -16,7 +16,7 @@ const Security = () => {
           <SectionHeading
             sx={styles.heading}
             title="Unbeatable privacy &amp; secure data storage subscription"
-            description="Our data centers have top-notch security and surveillance, with a reliable 99.9% uptime. Secure email hosting with encryption both at rest and end-to-end, along with S/MIME message encryption."
+            description="Ghala Kuu is on top-notch security and surveillance, with a reliable 99.9% uptime. Secure database with encryption both at rest and end-to-end, along with S/MIME message encryption."
             learnMore="Secure data storage"
           />
         </Box>

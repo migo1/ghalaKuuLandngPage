@@ -8,39 +8,39 @@ import FaqItem from 'components/cards/faq-item';
 const data = [
   {
     id: 1,
-    ques: 'Which domain should I purchase?',
-    ans: `We make it easy to move to CometNine. Simply contact us and we'll move your hosting account from any other provider, regardless of the control panel. If at anytime your website is down for more than 0.1% result`,
+    ques: "Who are we?",
+    ans: `Sales consulting services are Ghala Kuu's area of expertise. How to increase more online and offline leads using growth hacking, optimization services, A/B testing, and other methods. We will approach your company from an outsider's perspective and assist you realize how to adopt a novel new perspective.`,
   },
   {
     id: 2,
-    ques: 'What are some tips when choosing a name?',
-    ans: `Get your website tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.`,
+    ques: "What is Ghala Kuu App?",
+    ans: `A field sales force automation tool Ghala Kuu App is created for FMCG firms, sales managers, distributors, and manufacturers with field staff who wish to automate their field sales process. This field sales force software has capabilities like GPS-based employee position monitoring, order automation, distributor administration, beat planning, attendance and leave management that may be quite helpful for managing the field sales team.`,
   },
   {
     id: 3,
-    ques: 'What if I need help choosing the right domain?',
-    ans: `Create a hub for cross-functional work that also works with all your other tools. Centralize and standardize communication with Miro. All premium functional are included here with updates.`,
+    ques: "Why are companies interested in Ghala Kuu App?",
+    ans: `In addition to ensuring the productivity of sales representatives, the Ghala Kuu APP offers a variety of other advantages to a business, such as assisting the brand in understanding its retail market for segment-specific action and saving the sales representative's travel time, which could be used for more fruitful store visits. Additionally, it enables tracking of in-store visual merchandising and boosts sales through order suggestion. The few advantages listed above amply demonstrate the Sales Automation App's influence on the FMCG industry.`,
   },
   {
     id: 4,
-    ques: 'Can I upgrade or downgrade my web hosting plan',
-    ans: `The pricing made me a little hesitant at first but I have been pleasantly surprised by the level of care given by CometNine.`,
+    ques: "How much will Ghala Kuu Software Cost?",
+    ans: `It is affordable as it is tailored depending on specific business need`,
   },
-  {
-    id: 5,
-    ques: 'How do I upgrade the storage capacity of my hosting plan?',
-    ans: `Stop your viewers from getting distracted. Publish videos to your own Channel and rest easy knowing viewers won’t be annoyed by ads or pulled down a rabbit hole of unrelated videos.`,
-  },
-  {
-    id: 6,
-    ques: 'What is in InMotion Hosting’s uptime rate?',
-    ans: `Designed with beginners in mind and packed with advanced features developers will love. Start with a quick and simple install`,
-  },
-  {
-    id: 7,
-    ques: 'Learn from community on Brandwagon',
-    ans: `Brian Halligan knows that you need more than a great product to have a great brand. Hear his thoughts & score a peek at our wagon.`,
-  },
+  // {
+  //   id: 5,
+  //   ques: "How do I upgrade the storage capacity of my hosting plan?",
+  //   ans: `Stop your viewers from getting distracted. Publish videos to your own Channel and rest easy knowing viewers won’t be annoyed by ads or pulled down a rabbit hole of unrelated videos.`,
+  // },
+  // {
+  //   id: 6,
+  //   ques: "What is in InMotion Hosting’s uptime rate?",
+  //   ans: `Designed with beginners in mind and packed with advanced features developers will love. Start with a quick and simple install`,
+  // },
+  // {
+  //   id: 7,
+  //   ques: "Learn from community on Brandwagon",
+  //   ans: `Brian Halligan knows that you need more than a great product to have a great brand. Hear his thoughts & score a peek at our wagon.`,
+  // },
 ];
 
 const masonryOptions = { originTop: true };
