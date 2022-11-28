@@ -47,5 +47,6 @@ const styles = {
   },
   illustration: {
     alignItems: 'center',
+    pl: 4
   },
 };
