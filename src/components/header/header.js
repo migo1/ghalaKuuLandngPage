@@ -64,47 +64,49 @@ export default function Header() {
 
 const styles = {
   header: {
-    backgroundColor: 'transparent',
-    position: 'fixed',
+    backgroundColor: "transparent",
+    position: "fixed",
     left: 0,
     right: 0,
     py: [5],
-    transition: 'all 0.3s ease-in-out 0s',
-    '&.is-sticky': {
-      backgroundColor: 'white',
-      boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
+    transition: "all 0.3s ease-in-out 0s",
+    "&.is-sticky": {
+      backgroundColor: "white",
+      boxShadow: "0px 20px 50px rgba(59, 90, 136, 0.05)",
       py: [3],
     },
   },
   container: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   navbar: {
-    display: ['none', null, null, null, 'flex'],
-    alignItems: 'center',
+    display: ["none", null, null, null, "flex"],
+    alignItems: "center",
     a: {
-      color: 'white',
-      cursor: 'pointer',
-      display: ['flex'],
+      color: "white",
+      cursor: "pointer",
+      display: ["flex"],
       fontWeight: 400,
       padding: 0,
-      transition: 'all 0.3s ease-in-out 0s',
-      '+ a': {
+      transition: "all 0.3s ease-in-out 0s",
+      "+ a": {
         ml: [null, null, null, null, 4, 7],
       },
     },
-    '.is-sticky': {
-      color: 'text',
+    ".is-sticky": {
+      color: "text",
     },
-    '.active': {
-      color: 'primary',
+    ".active": {
+      color: "#ff9c10",
     },
   },
   button: {
-    display: ['none', null, null, null, 'inline-flex'],
+    display: ["none", null, null, null, "inline-flex"],
     minHeight: 45,
-    px: '18px',
+    px: "18px",
+    backgroundColor: "#ff9c10",
+    color: "#171717",
   },
 };
