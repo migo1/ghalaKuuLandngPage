@@ -3,8 +3,8 @@
 import { jsx, Box, Container } from 'theme-ui';
 import Slider from 'react-slick';
 import Testimonial from 'components/cards/testimonial';
-import author1 from 'assets/images/clients/author1.png';
-import author2 from 'assets/images/clients/author2.png';
+import author1 from 'assets/images/clients/author.png';
+import author2 from 'assets/images/clients/author.png';
 import logo1 from 'assets/images/clients/kacha.png';
 import logo2 from 'assets/images/clients/kacha.png';
 import { rgba } from 'polished';
@@ -14,7 +14,10 @@ const data = [
     id: 1,
     author: author1,
     logo: logo1,
-    text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
+    text: `
+    I am really impressed by the quality of services I received from Ghala Tech Solutions. You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
+     and delivered items well before time. I have got an Amazing software for my products. My revenue has increased because of Ghala Tech and I will definitely use your services again
+    `,
     authorName: "Charles",
     designation: " President ",
   },
@@ -22,7 +25,10 @@ const data = [
     id: 2,
     author: author2,
     logo: logo2,
-    text: `Just complete the project. Always clear explanation. In the beginning you will be taught how to deal with this amazing talented people.`,
+    text: `
+    I am really impressed by the quality of services I received from Ghala Tech Solutions. You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
+     and delivered items well before time. I have got an Amazing software for my products. My revenue has increased because of Ghala Tech and I will definitely use your services again
+    `,
     authorName: "Charles",
     designation: " President ",
   },

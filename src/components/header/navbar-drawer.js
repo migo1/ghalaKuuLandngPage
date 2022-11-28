@@ -25,7 +25,7 @@ const NavbarDrawer = ({ isSticky }) => {
       placement="right"
       drawerHandler={
         <Box sx={styles.handler}>
-          <MenuButton color={isSticky ? 'text' : 'white'} sx={{ p: 0 }} />
+          <MenuButton color={isSticky ? "text" : "white"} sx={{ p: 0 }} />
         </Box>
       }
       open={state?.isOpen}
@@ -57,9 +57,11 @@ const NavbarDrawer = ({ isSticky }) => {
             </Box>
           ))}
         </Box>
-        <Button variant="primary" sx={styles.donateNow}>
-          Purchase Now
-        </Button>
+        <a href="http://app.ghalatechsolutions.com/login">
+          <Button variant="primary" sx={styles.donateNow}>
+            Login
+          </Button>
+        </a>
       </Box>
     </Drawer>
   );

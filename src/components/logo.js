@@ -2,8 +2,8 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/images/logo.svg';
-import logoDark from 'assets/images/logo-dark.svg';
+import logo from 'assets/images/ghala.png';
+import logoDark from "assets/images/ghala.png";
 
 export default function Logo({ isSticky, light, dark, ...props }) {
   return (

@@ -13,7 +13,7 @@ const data = [
     id: 1,
     icon: icon1,
     title: "Retailer Profiling for Personalized Engagements",
-    description: `Sales Automation App that allows FMCG firms to create a thorough profile of each client, illuminating everything from purchase history to order volume to the real sales potential of the shops. It prevents client duplication and ensures that no retail stores are duplicated. Furthermore, it ensures a smooth customer information 
+    description: `Sales Automation App that allows FMCG firms to create a thorough profile of each client, illuminating everything from purchase history to order volume to the real sales potential of the shops.  Furthermore, it ensures a smooth customer information 
     gathering process that is supported by a crisp profile enrichment process that adheres to proper data hygiene.`,
   },
   {
