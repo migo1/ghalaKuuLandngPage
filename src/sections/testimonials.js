@@ -18,11 +18,10 @@ const data = [
     I am really impressed by the quality of services I received from Ghala Tech Solutions. You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
      and delivered items well before time. I have got an Amazing software for my products and I will definitely use your services again. 
      
-    `
-    // My revenue has increased because of Ghala Tech 
-    ,
+    `,
+    // My revenue has increased because of Ghala Tech
     authorName: "Charles",
-    designation: " President ",
+    designation: " President kacha animal health",
   },
   {
     id: 2,
@@ -32,11 +31,10 @@ const data = [
     I am really impressed by the quality of services I received from Ghala Tech Solutions. You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
      and delivered items well before time. I have got an Amazing software for my products and I will definitely use your services again.
       
-    `
-    // My revenue has increased because of Ghala Tech 
-    ,
+    `,
+    // My revenue has increased because of Ghala Tech
     authorName: "Charles",
-    designation: " President ",
+    designation: " President kacha animal health",
   },
   // {
   //   id: 3,
