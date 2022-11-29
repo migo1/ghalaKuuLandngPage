@@ -12,9 +12,10 @@ const Addons = () => {
         <Box sx={styles.grid}>
           <SectionHeading
             sx={styles.heading}
-            title="Integrated with the ultimate add-on management"
-            description="Our data centers have top-notch security and surveillance, with a reliable 99.9% uptime. Secure email hosting with encryption both at rest and end-to-end, along with S/MIME message encryption."
-            learnMore="Explore all add-on"
+            title="Scalable, room for intergrations with Softwares"
+            description="Your tech ecosystem is ready to go, connect your enterprise system to Ghala Kuu to eliminate errors, have real reportings 
+                          with an end-to-end visibility and a streamlined process"
+            learnMore="a few of the intergrated softwares"
           />
           <Flex sx={styles.illustration}>
             <Image src={addons} alt="addons" />
