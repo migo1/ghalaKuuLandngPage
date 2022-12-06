@@ -3,7 +3,7 @@
 import { jsx, Box, Flex, Container, Image as Img } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Image from 'components/image';
-import app from 'assets/images/mobile.jpg';
+import app from 'assets/images/mobiles.png';
 import appStore from 'assets/images/app-store.png';
 import googlePlay from 'assets/images/google-play.png';
 
