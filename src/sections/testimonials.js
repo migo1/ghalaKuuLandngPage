@@ -6,7 +6,7 @@ import Testimonial from 'components/cards/testimonial';
 import author1 from 'assets/images/clients/author.png';
 import author2 from 'assets/images/clients/author.png';
 import logo1 from 'assets/images/clients/kacha.png';
-import logo2 from 'assets/images/clients/kacha.png';
+import logo2 from "assets/images/clients/ghalasoln.png";
 import { rgba } from 'polished';
 
 const data = [
@@ -28,13 +28,13 @@ const data = [
     author: author2,
     logo: logo2,
     text: `
-    I am really impressed by the quality of services I received from Ghala Tech Solutions. You were right on schedule, charged reasonable prices, were professional and courteous in dealings,
-     and delivered items well before time. I have got an Amazing software for my products and I will definitely use your services again.
+    sales automation helped us streamline our sales processes and has saved us a significant amount of time ability to automate repetitive tasks such as sending follow-up emails and scheduling appointments.
+     This has allowed us to focus on more high-level tasks and has increased our productivity.
       
     `,
     // My revenue has increased because of Ghala Tech
-    authorName: "Charles",
-    designation: " President kacha animal health",
+    authorName: "Christine Anjuri",
+    designation: " Ghala Solutions",
   },
   // {
   //   id: 3,
