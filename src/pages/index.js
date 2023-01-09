@@ -7,6 +7,7 @@ import Banner from 'sections/banner';
 import Faq from 'sections/faq';
 import Testimonials from 'sections/testimonials';
 import Security from 'sections/security';
+import Delivery from 'sections/delivery'
 import Addons from 'sections/addons';
 import MobileApp from 'sections/mobile-app';
 import Dashboard from 'sections/dashboard';
@@ -16,14 +17,12 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO
-          title="Ghala Kuu FMCG"
-          description="ghala kuu landing page"
-        />
+        <SEO title="Ghala Kuu FMCG" description="ghala kuu landing page" />
         <Banner />
         <Testimonials />
         <Security />
         <Addons />
+        <Delivery />
         <Dashboard />
         <UltimateFeatures />
         <MobileApp />
