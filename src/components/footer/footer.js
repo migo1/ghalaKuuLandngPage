@@ -10,28 +10,26 @@ import { rgba } from 'polished';
 export default function Footer() {
   return (
     <footer sx={styles.footer}>
-      {/* <Container>
+      <Container>
         <Box sx={styles.footerTopInner}>
           {menuItems.map(({ id, title, items }) => (
             <FooterWidget key={id} title={title} items={items} />
           ))}
         </Box>
-      </Container> */}
+      </Container>
       <Container>
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
             <Logo sx={styles.logo} light />
-            <Text as="span">
+            {/* <Text as="span">
               Copyright by {new Date().getFullYear()} GHALA KUU
-            </Text>
+            </Text> */}
           </Box>
 
           <Box as="ul" sx={styles.footerNav}>
-            {footerNav.map(({ path, label }, i) => (
-              <li key={i}>
-                <Link path={path} key={i} label={label} variant="footer" />
-              </li>
-            ))}
+            <Text as="span">
+              Copyright by {new Date().getFullYear()} GHALA KUU
+            </Text>
           </Box>
         </Box>
       </Container>
@@ -47,13 +45,13 @@ const styles = {
   footerTopInner: {
     gap: [50, null, null, null, 0, 50],
     display: ["grid"],
-    gridTemplateColumns: [
-      "repeat(2, 1fr)",
-      null,
-      null,
-      "repeat(3, 1fr)",
-      "repeat(5, 1fr)",
-    ],
+    // gridTemplateColumns: [
+    //   "repeat(2, 3fr)",
+    //   null,
+    //   null,
+    //   "repeat(3, 3fr)",
+    //   "repeat(5, 3fr)",
+    // ],
     mb: [null, null, null, 7],
   },
   footerInner: {
@@ -78,6 +76,7 @@ const styles = {
     mr: 3,
   },
   footerNav: {
+    color: "white",
     listStyle: "none",
     margin: ["15px 0 0", "15px 0 0", "0"],
     padding: 0,
