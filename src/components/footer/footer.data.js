@@ -5,7 +5,7 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        label: 'Addres: JKUAT Towers 10th floor Kenyatta Ave',
+        label: 'Address: JKUAT Towers 10th floor Kenyatta Ave',
       },
       {
         path: '#!',

@@ -21,15 +21,17 @@ export default function Footer() {
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
             <Logo sx={styles.logo} light />
-            {/* <Text as="span">
-              Copyright by {new Date().getFullYear()} GHALA KUU
-            </Text> */}
           </Box>
 
           <Box as="ul" sx={styles.footerNav}>
             <Text as="span">
               Copyright by {new Date().getFullYear()} GHALA KUU
             </Text>
+            {/* {footerNav.map(({ path, label }, i) => (
+              <li key={i}>
+                <Link path={path} key={i} label={label} variant="footer" />
+              </li>
+            ))} */}
           </Box>
         </Box>
       </Container>
